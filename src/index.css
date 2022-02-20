@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #406882;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+}
+
+#optionsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+}
+
+select, button {
+  padding: 5px 10px 5px 10px;
+  margin: 5px;
+  background-color: paleturquoise;
+  border: none;
+  border-radius: 10px;
+  font-size: medium;
+}
+
+select {
+  margin-bottom: 20px;
+}
+
+button {
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: cornflowerblue;
+}
+
+table, th, td {
+  border: 1px solid;
+  color: lightcyan;
+}
+
+th {
+  background-color: paleturquoise;
+  color: black;
+}
+
+th, td {
+  padding: 0 20px 0 20px;
+}
+
+table {
+  margin-left:auto; 
+  margin-right:auto;
+}
+
+img {
+  width: 30px;
+}
+
+#barGraphContainer {
+  margin: 0 10% 0 10%;
+}
+
+.countryBarContainer {
+  height: 20px;
+  background-color: palevioletred;
+  border: 1px solid black;
+}
+
+.countryBar {
+  height: 20px;
+  width: 160px;
+  background-color: pink;
+  position: relative;
+  border-right: 1px solid black;
+  display: flex;
+  align-items: vertical;
+  
+}
+
+p {
+  margin: 0 0 0 5px;
+  color: black;
+}
