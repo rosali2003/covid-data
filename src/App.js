@@ -34,6 +34,8 @@ const App = (event) => {
     if (category !== "" && display !== "") {
       setHomePage(false);
       fetchData();
+    } else {
+      alert("Please select a display and a category");
     }
   };
 
